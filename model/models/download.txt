@@ -1,1 +1,8 @@
 please download model via https://hopebio2020.sharepoint.com/:f:/s/PublicSharedfiles/EmUQnvZMETlDvoCaBduCNeIBQArcOrd8T8iEpiGofFZ9CQ?e=3SpPZU
+
+
+###How to directly get:
+wget --no-check-certificate \
+     --header="Referer: https://hopebio2020.sharepoint.com/" \
+     --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+     "https://hopebio2020.sharepoint.com/sites/PublicSharedfiles/Shared%20Documents/Public%20Shared%20files/models.ckpt"
